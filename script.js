@@ -8,10 +8,83 @@ const tracks = [
     },
     {
         title: "Hamptons",
-        artist: "The Marías",
+        artist: "The Marías - Submarine",
         src: "playlist/Hamptons - The Marías.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Echo",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Run Your Mouth",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Real Life",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Blur",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Paranoia",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Lejos de Ti",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Love You Anyway",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Ay no Puedo",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "No One Noticed",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Vicious Sensitive Robot",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "If Only",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+    },
+    {
+        title: "Sienna",
+        artist: "The Marías - Submarine",
+        src: "",
+        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     }
+
     // Add more tracks in this format:
     // { title: "Song Title", artist: "Artist Name", src: "playlist/Song Title - Artist.mp3", art: "photo/image.jpg" }
 ];
