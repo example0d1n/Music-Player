@@ -21,19 +21,19 @@ const tracks = [
     {
         title: "Run Your Mouth",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Run Your Mouth.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Real Life",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Real Life.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Blur",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Blur.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
