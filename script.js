@@ -3,19 +3,19 @@ const tracks = [
     {
         title: "Ride",
         artist: "The Marías — Submarine",
-        src: "playlist/Ride - The Marías.mp3",
+        src: "playlist/Ride - The Marias.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Hamptons",
         artist: "The Marías - Submarine",
-        src: "playlist/Hamptons - The Marías.mp3",
+        src: "playlist/Hamptons - The Marias.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Echo",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Echo - The Marias.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
@@ -110,6 +110,7 @@ function loadTrack(index) {
     const track = tracks[index];
     
     song.src = track.src;
+    song.load();
     songTitle.textContent = track.title;
     songArtist.textContent = track.artist;
     songImage.src = track.art;
@@ -170,34 +171,41 @@ prevTrackBtn.addEventListener("click", prevTrack);
 nextTrackBtn.addEventListener("click", nextTrack);
 
 // Audio element event listeners
-song.onloadedmetadata = function(){
-    progress.max = song.duration; 
+song.addEventListener("loadedmetadata", () => {
+    progress.max = song.duration;
     progress.value = song.currentTime;
-}
+});
+
+song.addEventListener("timeupdate", () => {
+    progress.value = song.currentTime;
+});
+
+song.addEventListener("error", () => {
+    console.error("Audio error loading track:", song.src, song.error);
+});
+
+song.addEventListener("play", () => {
+    ctrlIcon.classList.add("fa-pause");
+    ctrlIcon.classList.remove("fa-play");
+});
+
+song.addEventListener("pause", () => {
+    ctrlIcon.classList.remove("fa-pause");
+    ctrlIcon.classList.add("fa-play");
+});
 
 function playPause(){
     if(ctrlIcon.classList.contains("fa-pause")){
         song.pause();
-        ctrlIcon.classList.remove("fa-pause");
-        ctrlIcon.classList.add("fa-play");
     }
     else{
         song.play();
-         ctrlIcon.classList.add("fa-pause");
-        ctrlIcon.classList.remove("fa-play");
     }
 }
 
-if(song.play()){
-    setInterval(()=>{
-        progress.value = song.currentTime;
-    },500);
-}
-
-progress.onchange = function(){
-    song.play();
+progress.addEventListener("input", () => {
     song.currentTime = progress.value;
-}
+});
 
 // Initialize
 loadTrack(0);
