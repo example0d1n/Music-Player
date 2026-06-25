@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+@font-face {
+    font-family: Liminoru;
+    src: url(fonts/liminoru-personal-use/LiminoruPersonalUse-Regular.otf);
+}
+.lyrics-container{
+    top: 150px;
+    bottom: -100px;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    margin-left: 75px;
+    width: 300px;
+
+    font-family: Liminoru;
+    font-size: 50px;
+    text-shadow: 0 0 40px #159ff4;
+    color: blue;
+    padding-bottom: 50px;
+
+    transform: translateY(550px);
+    animation: ease-in-out infinite;
+}
+.lyrics-line {
+   
+     
+}

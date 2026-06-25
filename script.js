@@ -39,49 +39,49 @@ const tracks = [
     {
         title: "Paranoia",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Paranoiaa.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Lejos de Ti",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Lejos de ti.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Love You Anyway",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Love you anyway.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Ay no Puedo",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Aye no puedo.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "No One Noticed",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/No one noticed 2.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Vicious Sensitive Robot",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Vicious Sensitive Robot.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "If Only",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/If only.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     },
     {
         title: "Sienna",
         artist: "The Marías - Submarine",
-        src: "",
+        src: "playlist/Sienna.mp3",
         art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
     }
 

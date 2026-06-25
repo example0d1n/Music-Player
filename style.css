@@ -18,6 +18,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     justify-items: center;
+    position: absolute;
     
 }
 .music-player{
@@ -107,6 +108,8 @@ nav .circle{
 #song {
     display: none;
 }
+
+
 
 /* Playlist Styles */
 #playlist-container {
