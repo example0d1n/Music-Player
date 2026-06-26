@@ -37,6 +37,9 @@ nav {
     justify-content: space-between;
     margin-bottom: 30px;
 }
+.back-to-main-screen{
+    color: black;
+}
 nav .circle{
     margin: 10px 10px 0;
     padding: 10px;

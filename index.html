@@ -18,7 +18,10 @@
             <div class="music-player">
                 <nav>
                     <div class="circle" id="prevBtn">
-                        <i class="fa-solid fa-chevron-left"></i>
+                        <a href="menu.html" class="back-to-main-screen">
+                            <i class="fa-solid fa-chevron-left">
+                        </i>
+                        </a>
                     </div>
                     <div class="circle" id="playlistToggle">
                         <i class="fa-solid fa-bars"></i>
@@ -33,7 +36,8 @@
 
                 <div class="controls">
                     <div id="prevTrackBtn"><i class="fa-solid fa-backward-step"></i></div>
-                    <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                    <div onclick="playPause()">
+                        <i class="fa-solid fa-play" id="ctrlIcon"></i></div>
                     <div id="nextTrackBtn"><i class="fa-solid fa-forward-step"></i></div>
                 </div>
                 <div id="playlist-container" class="playlist-hidden">
