@@ -3,7 +3,7 @@
 }
 body {
     background-color: black;
-    transition: background 0.5s ease;
+    transition: background 0.8s ease;
 }
 
 /* Centering the albums */
@@ -20,9 +20,7 @@ body {
 }
 /* Submarine */
 .music-player {
-    background: 
-    linear-gradient(to left, #153CB4,#042E60), 
-    linear-gradient(to bottom, #1CA9C9 , #DBE7EE);
+    background: linear-gradient(145deg, #080B10 20%, #0D2C54 100%);
     width: 700px;
     height: 650px;
 
@@ -31,6 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-items: center;
+    flex-wrap: wrap;
 
     border-radius: 20px;
 }
@@ -41,15 +40,13 @@ body {
     width: 200px;
     border-radius: 20px;
     box-shadow: black 5px 5px 5px;
-    margin-bottom: 10px;
+    margin-bottom: 2em;
 
 }
 
 /* CINEMA */
 .music-player2 {
-    background: 
-    linear-gradient(to left, #892b30,#b62518), 
-    linear-gradient(to bottom, #d96352 , #DBE7EE);
+    background: radial-gradient(circle, #892B30 0%, #111111 80%);
     width: 700px;
     height: 650px;
 
@@ -89,10 +86,23 @@ ol {
     text-align: center;
 }
 hr {
+    display: inline-block;
     border: none;
-    height: 2px;
+    height: 5px;
     background-color: black;
-    width: 50%;
+    width: 200px;
     padding: 0;
-    margin: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+/* testing new has() selection */
+body:has(.music-player:hover) {
+    background: linear-gradient(145deg, #080B10 20%, #0D2C54 100%);
+}
+
+body:has(.music-player2:hover) {
+    background: radial-gradient(circle, #892B30 0%, #111111 80%);
+}
+h3 {
+    font-size: 200%;
 }
