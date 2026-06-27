@@ -1,3 +1,10 @@
+* {
+   margin: 0;
+}
+body {
+    background-color: black;
+    transition: background 0.5s ease;
+}
 
 /* Centering the albums */
 .flex-box{
@@ -19,8 +26,25 @@
     width: 700px;
     height: 650px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
     border-radius: 20px;
 }
+.Submarine-img {
+    display: flex;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 10px;
+
+}
+
 /* CINEMA */
 .music-player2 {
     background: 
@@ -30,24 +54,19 @@
     height: 650px;
 
     border-radius: 20px;
-}
 
-.Submarine-img {
     display: flex;
-    text-align: center;
-
-    height: 200px;
-    width: 200px;
-
-    border-radius: 20px;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
 }
+
 
 .CINEMA-img {
     display: flex;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 15px;
     height: 200px;
     width: 200px;
 
@@ -55,7 +74,12 @@
     border:#892b30 solid 5px;
     box-shadow: #d96352 3px 5px 5px 5px;
 
+    margin-bottom: 2em;
+
+
 }
+
+/* General CSS styling */
 .playlist, .playlist2{
     text-align: right;
     transform: translateY(-120px);

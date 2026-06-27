@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepage.css" />
+    <script src="https://kit.fontawesome.com/7a7009d613.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <main>
         <h1 style="text-align: center;">Home Page</h1>
     <div class="flex-box">
-        <div class="music-player">
-            <h2>Submarine</h2>
-            <a href="index.html" class="Submarine-player">
+        <div class="music-player" data-image="https://images.squarespace-cdn.com/content/v1/65c5bed8199ea70aa6235dd9/5b1de0f1-1e98-4e08-a516-533270363183/TheMarias-Submarine_WebHomeImg.jpg">
                 <img src="photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg" class="Submarine-img">
-            </a>
-            <div class="playlist">
+                <h3>Submarine - The Marías</h3>
+                <a href="index.html">
+                    <i class="fa-solid fa-play" id=""></i> 
+                </a>
+           <!-- <div class="playlist">
                 <ol>
                     <li>
                         Ride
@@ -74,12 +76,17 @@
                     </li>
                     <hr>
                 </ol>
-            </div>
+            </div> -->
         </div>
         <div class="music-player2">
-            <h2>CINEMA</h2>
             <img src="photo/CINEMA.jpeg" class="CINEMA-img">
-            <div class="playlist2">
+            <h3 id="song-title2">CINEMA - The Marías</h3>
+            <div class="music-controls">
+                <a href="">
+              <i class="fa-solid fa-play" id=""></i> 
+              </a>
+            </div>
+            <!-- <div class="playlist2">
                 <ol>
                     <li>
                         Just a Feeling
@@ -134,9 +141,10 @@
                     </li>
                     <hr>
                 </ol>
-            </div>
+            </div> -->
         </div>
     </div>
 </main>
+<script src="homepage.js"></script>
 </body>
 </html>
