@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CINEMA.css" />
+    <link rel="icon" type="image/jpeg" href="photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg" />
+    <script src="https://kit.fontawesome.com/7a7009d613.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="music-player">
+                <nav>
+                    <div class="circle" id="prevBtn">
+                        <a href="Index.html" class="back-to-main-screen">
+                            <i class="fa-solid fa-chevron-left">
+                        </i>
+                        </a>
+                    </div>
+                    <div class="circle" id="playlistToggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+                <img id="song-image" src="photo/CINEMA.jpeg" class="song-image"/>
+                <h1 id="song-title">Just a Feeling</h1>
+                <p id="song-artist">The Marías — CINEMA </p>
+
+                <audio controls id="song"></audio>
+                <input type="range" value="0" id="progress">
+
+                <div class="controls">
+                    <div id="prevTrackBtn"><i class="fa-solid fa-backward-step"></i></div>
+                    <div onclick="playPause()">
+                        <i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                    <div id="nextTrackBtn"><i class="fa-solid fa-forward-step"></i></div>
+                </div>
+                <div id="playlist-container" class="playlist-hidden">
+                    <div class="playlist-header">
+                        <h2>Playlist</h2>
+                        <button id="closePlaylist">&times;</button>
+                    </div>
+                    <div id="playlist" class="playlist"></div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <script src="CINEMA.js"></script>
+</body>
+</html>

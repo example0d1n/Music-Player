@@ -39,7 +39,7 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 20px;
-    box-shadow: black 5px 5px 5px;
+    box-shadow: rgb(112, 145, 255) 5px 5px 5px;
     margin-bottom: 2em;
 
 }
@@ -95,6 +95,9 @@ hr {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+h3 {
+    font-size: 200%;
+}
 /* testing new has() selection */
 body:has(.music-player:hover) {
     background: linear-gradient(145deg, #080B10 20%, #0D2C54 100%);
@@ -102,7 +105,4 @@ body:has(.music-player:hover) {
 
 body:has(.music-player2:hover) {
     background: radial-gradient(circle, #892B30 0%, #111111 80%);
-}
-h3 {
-    font-size: 200%;
 }
