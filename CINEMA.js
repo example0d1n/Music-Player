@@ -43,24 +43,6 @@ const tracks = [
         art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Lejos de Ti",
-        artist: "The Marías - CINEMA",
-        src: "playlist/Lejos de ti.mp3",
-        art: "photo/CINEMA.jpeg"
-    },
-    {
-        title: "Love You Anyway",
-        artist: "The Marías - CINEMA",
-        src: "playlist/Love you anyway.mp3",
-        art: "photo/CINEMA.jpeg"
-    },
-    {
-        title: "Heavy",
-        artist: "The Marías - CINEMA",
-        src: "playlist/Heavy.mp3",
-        art: "photo/CINEMA.jpeg"
-    },
-    {
         title: "Un Millión",
         artist: "The Marías - CINEMA",
         src: "playlist/Un Millón.mp3",
