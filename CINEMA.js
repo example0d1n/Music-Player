@@ -3,7 +3,7 @@ const tracks = [
     {
         title: "Just a Feeling",
         artist: "The Marías — CINEMA",
-        src: "playlist/Ride - The Marias.mp3",
+        src: "playlist/Just a Feeling.mp3",
         art: "photo/CINEMA.jpeg"
     },
     {
