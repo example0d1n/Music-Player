@@ -19,7 +19,15 @@
 
 
 body {
-    background-color: rgb(0, 0, 0);
+      /* Critical: Ensures the body is at least as tall as the screen */
+    min-height: 100vh;
+    margin: 0;
+
+    /* Your existing code */
+    background-image: radial-gradient(circle, #892B30 0%, #111111 80%);
+
+    /* Critical: Keeps the gradient from tiling when you scroll */
+    background-attachment: fixed;
 }
 
 .container {
@@ -34,7 +42,7 @@ body {
     
 }
 .music-player{
-    background: linear-gradient(135deg, #b62518 0%, #0d0d0d 100%);
+    background: linear-gradient(135deg, #761a0f 0%, #0d0d0d 100%);
     border: 2px solid black;
     border-radius: 20px;
     width: 600px;
