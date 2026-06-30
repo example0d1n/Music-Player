@@ -39,7 +39,7 @@ const tracks = [
     {
         title: "Heavy",
         artist: "The Marías - CINEMA",
-        src: "playlist/Paranoiaa.mp3",
+        src: "playlist/Heavy.mp3",
         art: "photo/CINEMA.jpeg"
     },
     {
