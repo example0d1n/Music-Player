@@ -7,83 +7,96 @@ const tracks = [
         art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Hamptons",
-        artist: "The Marías - Submarine",
-        src: "playlist/Hamptons - The Marias.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Calling U Back",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Calling U Back.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Echo",
-        artist: "The Marías - Submarine",
-        src: "playlist/Echo - The Marias.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Hush",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Hush.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Run Your Mouth",
-        artist: "The Marías - Submarine",
-        src: "playlist/Run Your Mouth.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "All I Really Want Is You",
+        artist: "The Marías - CINEMA",
+        src: "playlist/All I Really Want Is You.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Real Life",
-        artist: "The Marías - Submarine",
-        src: "playlist/Real Life.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Hable con Ella",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Hable con Ella.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Blur",
-        artist: "The Marías - Submarine",
-        src: "playlist/Blur.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Little by Little",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Little by Little.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Paranoia",
-        artist: "The Marías - Submarine",
+        title: "Heavy",
+        artist: "The Marías - CINEMA",
         src: "playlist/Paranoiaa.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        art: "photo/CINEMA.jpeg"
     },
     {
         title: "Lejos de Ti",
-        artist: "The Marías - Submarine",
+        artist: "The Marías - CINEMA",
         src: "playlist/Lejos de ti.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        art: "photo/CINEMA.jpeg"
     },
     {
         title: "Love You Anyway",
-        artist: "The Marías - Submarine",
+        artist: "The Marías - CINEMA",
         src: "playlist/Love you anyway.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Ay no Puedo",
-        artist: "The Marías - Submarine",
-        src: "playlist/Aye no puedo.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Heavy",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Heavy.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "No One Noticed",
-        artist: "The Marías - Submarine",
-        src: "playlist/No one noticed 2.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Un Millión",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Un Millón.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Vicious Sensitive Robot",
-        artist: "The Marías - Submarine",
-        src: "playlist/Vicious Sensitive Robot.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "Spin Me Around",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Spin Me Around.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "If Only",
-        artist: "The Marías - Submarine",
-        src: "playlist/If only.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "The Mice Inside This Room",
+        artist: "The Marías - CINEMA",
+        src: "playlist/The Mice Inside This Room.mp3",
+        art: "photo/CINEMA.jpeg"
     },
     {
-        title: "Sienna",
-        artist: "The Marías - Submarine",
-        src: "playlist/Sienna.mp3",
-        art: "photo/ab67616d0000b2738aa339341a0b0c813909c831.jpeg"
+        title: "To Say Hello",
+        artist: "The Marías - CINEMA",
+        src: "playlist/To Say Hello.mp3",
+        art: "photo/CINEMA.jpeg"
+    },
+    {
+        title: "Fog as a Bullet",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Fog as a Bullet.mp3",
+        art: "photo/CINEMA.jpeg"
+    },
+    {
+        title: "Talk to Her",
+        artist: "The Marías - CINEMA",
+        src: "playlist/Talk to Her.mp3",
+        art: "photo/CINEMA.jpeg"
     }
+
 
     // Add more tracks in this format:
     // { title: "Song Title", artist: "Artist Name", src: "playlist/Song Title - Artist.mp3", art: "photo/image.jpg" }
